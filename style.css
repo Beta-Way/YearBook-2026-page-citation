@@ -384,9 +384,17 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: .5rem;
+  gap: .8rem;
   padding: .75rem 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.filters-inner::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari */
 }
 
 .filters-label {
@@ -398,8 +406,8 @@ body {
 
 #tag-chips {
   display: flex;
-  flex-wrap: wrap;
   gap: .5rem;
+  flex-shrink: 0;
 }
 
 .tag-chip {
