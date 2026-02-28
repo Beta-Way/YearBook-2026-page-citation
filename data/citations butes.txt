@@ -1,0 +1,313 @@
+1.	« Deviens ce que tu es. » — Nietzsche
+	2.	« Le bonheur n’est réel que s’il est partagé. » — Tolstoï
+	3.	« Ils ne savaient pas que c’était impossible, alors ils l’ont fait. » — Mark Twain
+	4.	« La vie est un mystère qu’il faut vivre. » — Gandhi
+	5.	« L’éducation est l’arme la plus puissante pour changer le monde. » — Mandela
+	6.	« Fais de ta vie un rêve, et d’un rêve, une réalité. » — Saint-Exupéry
+	7.	« Le courage, c’est de chercher la vérité et de la dire. » — Jaurès
+	8.	« On ne voit bien qu’avec le cœur. » — Saint-Exupéry
+	9.	« Le succès, c’est tomber sept fois et se relever huit. » — Proverbe japonais
+	10.	« La simplicité est la sophistication suprême. » — Léonard de Vinci
+	11.	« Apprends comme si tu devais vivre toujours. » — Gandhi
+	12.	« Rêve grand, commence petit. » — Simon Sinek
+	13.	« La liberté commence où l’ignorance finit. » — Victor Hugo
+	14.	« La vie est courte, l’art est long. » — Hippocrate
+	15.	« L’avenir appartient à ceux qui croient en la beauté de leurs rêves. » — Eleanor Roosevelt
+	16.	« Être soi-même est le plus grand des courages. » — Oscar Wilde
+	17.	« Rien n’est permanent, sauf le changement. » — Héraclite
+	18.	« La connaissance parle, la sagesse écoute. » — Jimi Hendrix
+	19.	« Le vrai voyage, c’est de changer de regard. » — Proust
+	20.	« Vis comme si tu devais mourir demain. » — Gandhi
+
+
+ Drôles / légères 
+	21.	« J’ai survécu à l’école. »
+	22.	« Diplômé(e)… enfin presque adulte. »
+	23.	« Trop cool pour redoubler. »
+	24.	« Objectif atteint : finir les cours. »
+	25.	« Merci Google, merci Wikipédia. »
+	26.	« J’ai appris… à procrastiner. »
+	27.	« Toujours en retard, mais jamais absent. »
+	28.	« Spoiler : j’ai réussi. »
+	29.	« Un jour, je serai célèbre. Peut-être. »
+	30.	« C’était long, mais j’ai signé. »
+	31.	« Formation intensive en survie scolaire. »
+	32.	« Présent(e) mentalement… parfois. »
+	33.	« Diplôme obtenu sans mode d’emploi. »
+	34.	« J’ai surtout appris à attendre la récré. »
+	35.	« Niveau motivation : variable. »
+	36.	« Encore vivant(e). »
+	37.	« J’ai fait semblant de comprendre. »
+	38.	« Tout ça pour une photo. »
+	39.	« Fin du tutoriel. »
+	40.	« Merci, suivant. »
+
+ Philosophiques / réflexion ()
+	41.	« Chaque fin est un nouveau départ. »
+	42.	« Le temps passe, les souvenirs restent. »
+	43.	« Grandir, c’est apprendre à choisir. »
+	44.	« On devient ce que l’on répète. »
+	45.	« Le plus important n’est pas la destination. »
+	46.	« Comprendre le monde commence par se comprendre soi-même. »
+	47.	« Le silence apprend autant que les mots. »
+	48.	« Avancer, même lentement, c’est avancer. »
+	49.	« L’erreur est une étape, pas une fin. »
+	50.	« Le changement commence ici. »
+	51.	« Chaque jour façonne demain. »
+	52.	« Le courage naît du doute. »
+	53.	« Rien n’est perdu tant qu’on apprend. »
+	54.	« Le futur se construit aujourd’hui. »
+	55.	« Le vrai succès est intérieur. »
+	56.	« Apprendre, c’est devenir libre. »
+	57.	« La vie est une question sans réponse unique. »
+	58.	« Ce que je suis compte plus que ce que j’ai. »
+	59.	« Penser, c’est déjà agir. »
+	60.	« Le chemin compte autant que l’arrivée. »
+
+Réussite / motivation (15)
+	61.	« Ce n’est que le début. »
+	62.	« J’ai osé. »
+	63.	« Rien ne m’arrête. »
+	64.	« Travail, rêves, réussite. »
+	65.	« Fier(ère) du chemin parcouru. »
+	66.	« Objectif suivant. »
+	67.	« Croire en soi change tout. »
+	68.	« J’ai appris à persévérer. »
+	69.	« Le futur m’attend. »
+	70.	« Chaque effort compte. »
+	71.	« Motivation > peur. »
+	72.	« Je n’abandonne pas. »
+	73.	« Le meilleur reste à venir. »
+	74.	« J’ai fait de mon mieux. »
+	75.	« Mission accomplie. »
+
+Bonheur / vie 
+	76.	« Profiter de l’instant. »
+	77.	« Sourire à demain. »
+	78.	« Choisir la joie. »
+	79.	« Être heureux(se), simplement. »
+	80.	« La vie est une chance. »
+	81.	« Savourer chaque étape. »
+	82.	« Le bonheur se partage. »
+	83.	« Vivant(e) et reconnaissant(e). »
+	84.	« Trouver le beau dans le simple. »
+	85.	« Ici et maintenant. »
+
+Amour & amitié 
+	86.	« Les amis font le voyage. »
+	87.	« Ensemble, on est plus forts. »
+	88.	« Des souvenirs pour la vie. »
+	89.	« L’amitié, c’est l’essentiel. »
+	90.	« Les vraies rencontres marquent. »
+	91.	« Merci à ceux qui sont restés. »
+	92.	« Des liens qui ne s’effacent pas. »
+	93.	« On a grandi ensemble. »
+	94.	« L’amitié dépasse les années. »
+	95.	« Toujours dans mon cœur. »
+	96.	« Les meilleurs moments étaient partagés. »
+	97.	« Un chapitre écrit à plusieurs. »
+	98.	« Des rires gravés pour toujours. »
+	99.	« L’amour sous toutes ses formes. »
+	100.	« À ceux qui ont compté. »
+Sagesse & philosophie
+	1.	« Connais-toi toi-même. » — Socrate
+	2.	« Le bonheur dépend de nous seuls. » — Aristote
+	3.	« Penser, c’est déjà agir. » — Jean-Paul Sartre
+	4.	« La vie est un mystère qu’il faut vivre. » — Mahatma Gandhi
+	5.	« Le doute est le commencement de la sagesse. » — René Descartes
+
+⸻
+
+🚀 Réussite & ambition
+	6.	« Ils ne savaient pas que c’était impossible, alors ils l’ont fait. » — Mark Twain
+	7.	« Le succès, c’est d’aller d’échec en échec sans perdre son enthousiasme. » — Winston Churchill
+	8.	« Vise la lune, au pire tu atteindras les étoiles. » — Oscar Wilde
+	9.	« N’abandonne jamais un rêve à cause du temps qu’il faut pour l’accomplir. » — Paulo Coelho
+	10.	« La seule limite à nos réalisations est notre imagination. » — Napoleon Hill
+
+⸻
+
+😊 Bonheur & vie
+	11.	« Le bonheur n’est réel que s’il est partagé. » — Leon Tolstoi
+	12.	« Le bonheur est parfois caché dans l’inconnu. » — Victor Hugo
+	13.	« La joie est en tout, il faut savoir l’extraire. » — Confucius
+	14.	« Le bonheur est une direction, pas une destination. » — Ralph Waldo Emerson
+	15.	« Être heureux, c’est décider de l’être. » — Abraham Lincoln
+
+⸻
+
+❤️ Amour
+	16.	« Aimer, ce n’est pas se regarder l’un l’autre, c’est regarder ensemble dans la même direction. » — Antoine de Saint-Exupery
+	17.	« Là où on s’aime, il ne fait jamais nuit. » — Proverbe africain
+	18.	« L’amour est composé d’une seule âme habitant deux corps. » — Aristote
+	19.	« Aimer, c’est savoir dire je t’aime sans parler. » — Victor Hugo
+	20.	« L’amour est la poésie des sens. » — Honore de Balzac
+
+⸻
+
+🤝 Amitié
+	21.	« L’amitié double les joies et réduit de moitié les peines. » — Francis Bacon
+	22.	« Un ami, c’est une âme en deux corps. » — Aristote
+	23.	« Le véritable ami est celui qui te connaît et t’aime quand même. » — Elbert Hubbard
+	24.	« L’amitié est l’ombre du soir qui grandit avec le soleil de la vie. » — Jean de La Fontaine
+	25.	« Marcher avec un ami dans le noir vaut mieux que marcher seul dans la lumière. » — Helen Keller
+
+⸻
+
+😄 Humour & légèreté
+	26.	« L’expérience est le nom que chacun donne à ses erreurs. » — Oscar Wilde
+	27.	« Je peux résister à tout sauf à la tentation. » — Oscar Wilde
+	28.	« Le secret pour avancer, c’est de commencer. » — Mark Twain
+	29.	« Prenez la vie du bon côté : elle ne dure pas longtemps. » — Alphonse Allais
+	30.	« La paresse est mère de tous les vices… mais aussi de toutes les inventions. » — Denis Diderot
+
+⸻
+
+✨ NOUVEAU THÈME — Rêves & avenir
+	31.	« L’avenir appartient à ceux qui croient en la beauté de leurs rêves. » — Eleanor Roosevelt
+	32.	« Faites de votre vie un rêve, et d’un rêve, une réalité. » — Antoine de Saint-Exupery
+	33.	« Les rêves sont nécessaires à la vie. » — Anais Nin
+	34.	« Tout ce que l’esprit peut concevoir peut être réalisé. » — Napoleon Hill
+	35.	« Rêver grand, c’est déjà réussir. » — Victor Hugo
+
+⸻
+
+🌱 NOUVEAU THÈME — Grandir & devenir soi
+	36.	« Deviens ce que tu es. » — Friedrich Nietzsche
+	37.	« Grandir, c’est accepter de changer. » — Jean Cocteau
+	38.	« Être soi-même est le plus grand des courages. » — Oscar Wilde
+	39.	« On ne naît pas adulte, on le devient. » — Simone de Beauvoir
+	40.	« La jeunesse n’est pas un âge, c’est un état d’esprit. » — Samuel Ullman
+
+Mais n’a peut-être dit qu’il se répète mais  voilà
+
+2.	« La force de l’équipe vient de chaque membre. La force de chaque membre vient de l’équipe. »
+— Phil Jackson
+	3.	« Le tout est plus que la somme de ses parties. »
+— Aristote
+	4.	« La solidarité est la tendresse des peuples. »
+— Che Guevara
+	5.	« On est riche aussi de ses amis. »
+— Antoine de Saint-Exupery
+
+⸻
+
+🌍 Réussir ensemble
+	6.	« Se rassembler est un début, rester ensemble est un progrès, travailler ensemble est la réussite. »
+— Henry Ford
+	7.	« La coopération est la conviction profonde que personne ne peut y arriver seul. »
+— Virginia Burden
+	8.	« La meilleure façon d’aller vite est d’aller ensemble. »
+— Jane Nelsen
+	9.	« Les grandes choses ne sont jamais faites par une seule personne, mais par une équipe. »
+— Steve Jobs
+	10.	« La réussite appartient à tous ceux qui s’entraident. »
+— Alfred Adler
+
+⸻
+
+🧠 Amitié & humanité
+	11.	« Un plus un peut faire beaucoup plus que deux. »
+— Dwight D. Eisenhower
+	12.	« Nous ne pouvons pas tous faire de grandes choses, mais de petites choses ensemble. »
+— Mère Teresa
+	13.	« Ce qui unit les hommes est plus fort que ce qui les divise. »
+— Andre Malraux
+	14.	« La fraternité est une conquête de chaque jour. »
+— Albert Camus
+	15.	« Avancer ensemble est un choix. »
+— Nelson Mandela
+
+Après cette ChatGPT, donc je suis pas sûre des auteurs  😂🤣🤣
+
+Pour de futurs médecins (10)
+	1.	« Guérir parfois, soulager souvent, écouter toujours. »
+— Proverbe médical
+	2.	« La médecine est un art avant d’être une science. »
+— Hippocrate
+	3.	« Là où l’on aime l’art de la médecine, on aime aussi l’humanité. »
+— Hippocrate
+	4.	« Soigner une maladie peut réussir, soigner une personne donne toujours du sens. »
+— Carl Rogers
+	5.	« La science sans conscience n’est que ruine de l’âme. »
+— Francois Rabelais
+	6.	« Le médecin voit l’homme dans sa fragilité, pas seulement dans sa maladie. »
+— Paul Ricoeur
+	7.	« Comprendre le malade est aussi important que comprendre la maladie. »
+— William Osler
+	8.	« La vocation médicale commence par l’écoute. »
+— Jean Bernard
+	9.	« La médecine est la plus humaine des sciences. »
+— Proverbe académique
+	10.	« Aider, soulager, respecter : voilà le cœur du soin. »
+— Albert Schweitzer
+
+⸻
+
+⚙️ Pour de futurs ingénieurs (10)
+	1.	« La science découvre, l’ingénieur crée. »
+— Theodore von Karman
+	2.	« La simplicité est la sophistication suprême. »
+— Leonard de Vinci
+	3.	« Les ingénieurs transforment les idées en réalité. »
+— Proverbe scientifique
+	4.	« La technologie n’a de sens que si elle sert l’homme. »
+— Albert Einstein
+	5.	« Résoudre un problème, c’est déjà améliorer le monde. »
+— George Polya
+	6.	« L’ingénierie est l’art de faire beaucoup avec peu. »
+— Eugene Wigner
+	7.	« Ce qui est mesurable peut être amélioré. »
+— Peter Drucker
+	8.	« Innover, c’est savoir relier des idées. »
+— Steve Jobs
+	9.	« Un bon ingénieur pense en solutions. »
+— Proverbe professionnel
+	10.	« Construire, c’est imaginer le futur. »
+— Gustave Eiffel
+
+💼 Pour de futurs professionnels du commerce (10)
+	1.	« Le meilleur moyen de prédire l’avenir, c’est de le créer. »
+— Peter Drucker
+	2.	« Le client est la raison d’être de toute entreprise. »
+— Sam Walton
+	3.	« Le succès en affaires exige formation, discipline et travail acharné. »
+— David Rockefeller
+	4.	« La valeur d’une idée réside dans son utilisation. »
+— Thomas Edison
+	5.	« Un bon leader crée la confiance, un grand leader crée l’avenir. »
+— Warren Bennis
+	6.	« Le commerce est l’art de comprendre l’autre. »
+— Proverbe économique
+	7.	« L’innovation distingue un leader d’un suiveur. »
+— Steve Jobs
+	8.	« La réussite appartient à ceux qui osent décider. »
+— Jean-Claude Trichet
+	9.	« La meilleure publicité est un client satisfait. »
+— Philip Kotler
+	10.	« Entreprendre, c’est transformer un risque en opportunité. »
+— Howard Schultz
+
+⸻
+
+⚖️ Pour de futurs juristes et professionnels du droit (10)
+	1.	« La justice est la première vertu des institutions sociales. »
+— John Rawls
+	2.	« Le droit est l’art du bon et du juste. »
+— Ulpien
+	3.	« Une injustice commise quelque part est une menace pour la justice partout. »
+— Martin Luther King Jr.
+	4.	« La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. »
+— Montesquieu
+	5.	« La loi doit être la même pour tous. »
+— Aristote
+	6.	« Sans justice, la force devient tyrannie. »
+— Blaise Pascal
+	7.	« Le droit est le rempart du faible contre l’arbitraire du fort. »
+— Rene Cassin
+	8.	« La justice élève une nation. »
+— Proverbe juridique
+	9.	« La loi n’est juste que si elle est humaine. »
+— Albert Camus
+	10.	« Défendre le droit, c’est défendre l’homme. »
+— Robert Badinter

@@ -1,0 +1,922 @@
+[
+  {
+    "id": 1,
+    "text": "Deviens ce que tu es.",
+    "tags": ["inspiration", "citation-connue"]
+  },
+  {
+    "id": 2,
+    "text": "Le bonheur n'est réel que s'il est partagé.",
+    "tags": ["bonheur", "citation-connue"]
+  },
+  {
+    "id": 3,
+    "text": "Ils ne savaient pas que c'était impossible, alors ils l'ont fait.",
+    "tags": ["motivation", "citation-connue"]
+  },
+  {
+    "id": 4,
+    "text": "La vie est un mystère qu'il faut vivre.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 5,
+    "text": "L'éducation est l'arme la plus puissante pour changer le monde.",
+    "tags": ["inspiration", "citation-connue"]
+  },
+  {
+    "id": 6,
+    "text": "Fais de ta vie un rêve, et d'un rêve, une réalité.",
+    "tags": ["rêves", "citation-connue"]
+  },
+  {
+    "id": 7,
+    "text": "Le courage, c'est de chercher la vérité et de la dire.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 8,
+    "text": "On ne voit bien qu'avec le cœur.",
+    "tags": ["bonheur", "citation-connue"]
+  },
+  {
+    "id": 9,
+    "text": "Le succès, c'est tomber sept fois et se relever huit.",
+    "tags": ["motivation", "citation-connue"]
+  },
+  {
+    "id": 10,
+    "text": "La simplicité est la sophistication suprême.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 11,
+    "text": "Apprends comme si tu devais vivre toujours.",
+    "tags": ["inspiration", "citation-connue"]
+  },
+  {
+    "id": 12,
+    "text": "Rêve grand, commence petit.",
+    "tags": ["rêves", "motivation", "citation-connue"]
+  },
+  {
+    "id": 13,
+    "text": "La liberté commence où l'ignorance finit.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 14,
+    "text": "La vie est courte, l'art est long.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 15,
+    "text": "L'avenir appartient à ceux qui croient en la beauté de leurs rêves.",
+    "tags": ["rêves", "motivation", "citation-connue"]
+  },
+  {
+    "id": 16,
+    "text": "Être soi-même est le plus grand des courages.",
+    "tags": ["devenir-soi", "citation-connue"]
+  },
+  {
+    "id": 17,
+    "text": "Rien n'est permanent, sauf le changement.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 18,
+    "text": "La connaissance parle, la sagesse écoute.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 19,
+    "text": "Le vrai voyage, c'est de changer de regard.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 20,
+    "text": "Vis comme si tu devais mourir demain.",
+    "tags": ["bonheur", "inspiration", "citation-connue"]
+  },
+  {
+    "id": 21,
+    "text": "J'ai survécu à l'école.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 22,
+    "text": "Diplômé(e)… enfin presque adulte.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 23,
+    "text": "Trop cool pour redoubler.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 24,
+    "text": "Objectif atteint : finir les cours.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 25,
+    "text": "Merci Google, merci Wikipédia.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 26,
+    "text": "J'ai appris… à procrastiner.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 27,
+    "text": "Toujours en retard, mais jamais absent.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 28,
+    "text": "Spoiler : j'ai réussi.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 29,
+    "text": "Un jour, je serai célèbre. Peut-être.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 30,
+    "text": "C'était long, mais j'ai signé.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 31,
+    "text": "Formation intensive en survie scolaire.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 32,
+    "text": "Présent(e) mentalement… parfois.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 33,
+    "text": "Diplôme obtenu sans mode d'emploi.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 34,
+    "text": "J'ai surtout appris à attendre la récré.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 35,
+    "text": "Niveau motivation : variable.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 36,
+    "text": "Encore vivant(e).",
+    "tags": ["humour"]
+  },
+  {
+    "id": 37,
+    "text": "J'ai fait semblant de comprendre.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 38,
+    "text": "Tout ça pour une photo.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 39,
+    "text": "Fin du tutoriel.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 40,
+    "text": "Merci, suivant.",
+    "tags": ["humour"]
+  },
+  {
+    "id": 41,
+    "text": "Chaque fin est un nouveau départ.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 42,
+    "text": "Le temps passe, les souvenirs restent.",
+    "tags": ["philosophie", "amitié"]
+  },
+  {
+    "id": 43,
+    "text": "Grandir, c'est apprendre à choisir.",
+    "tags": ["philosophie", "devenir-soi"]
+  },
+  {
+    "id": 44,
+    "text": "On devient ce que l'on répète.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 45,
+    "text": "Le plus important n'est pas la destination.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 46,
+    "text": "Comprendre le monde commence par se comprendre soi-même.",
+    "tags": ["philosophie", "devenir-soi"]
+  },
+  {
+    "id": 47,
+    "text": "Le silence apprend autant que les mots.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 48,
+    "text": "Avancer, même lentement, c'est avancer.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 49,
+    "text": "L'erreur est une étape, pas une fin.",
+    "tags": ["motivation", "philosophie"]
+  },
+  {
+    "id": 50,
+    "text": "Le changement commence ici.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 51,
+    "text": "Chaque jour façonne demain.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 52,
+    "text": "Le courage naît du doute.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 53,
+    "text": "Rien n'est perdu tant qu'on apprend.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 54,
+    "text": "Le futur se construit aujourd'hui.",
+    "tags": ["motivation", "rêves"]
+  },
+  {
+    "id": 55,
+    "text": "Le vrai succès est intérieur.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 56,
+    "text": "Apprendre, c'est devenir libre.",
+    "tags": ["inspiration"]
+  },
+  {
+    "id": 57,
+    "text": "La vie est une question sans réponse unique.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 58,
+    "text": "Ce que je suis compte plus que ce que j'ai.",
+    "tags": ["philosophie", "devenir-soi"]
+  },
+  {
+    "id": 59,
+    "text": "Penser, c'est déjà agir.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 60,
+    "text": "Le chemin compte autant que l'arrivée.",
+    "tags": ["philosophie"]
+  },
+  {
+    "id": 61,
+    "text": "Ce n'est que le début.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 62,
+    "text": "J'ai osé.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 63,
+    "text": "Rien ne m'arrête.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 64,
+    "text": "Travail, rêves, réussite.",
+    "tags": ["motivation", "rêves"]
+  },
+  {
+    "id": 65,
+    "text": "Fier(ère) du chemin parcouru.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 66,
+    "text": "Objectif suivant.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 67,
+    "text": "Croire en soi change tout.",
+    "tags": ["motivation", "devenir-soi"]
+  },
+  {
+    "id": 68,
+    "text": "J'ai appris à persévérer.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 69,
+    "text": "Le futur m'attend.",
+    "tags": ["motivation", "rêves"]
+  },
+  {
+    "id": 70,
+    "text": "Chaque effort compte.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 71,
+    "text": "Motivation > peur.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 72,
+    "text": "Je n'abandonne pas.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 73,
+    "text": "Le meilleur reste à venir.",
+    "tags": ["motivation", "rêves"]
+  },
+  {
+    "id": 74,
+    "text": "J'ai fait de mon mieux.",
+    "tags": ["motivation"]
+  },
+  {
+    "id": 75,
+    "text": "Mission accomplie.",
+    "tags": ["motivation", "humour"]
+  },
+  {
+    "id": 76,
+    "text": "Profiter de l'instant.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 77,
+    "text": "Sourire à demain.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 78,
+    "text": "Choisir la joie.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 79,
+    "text": "Être heureux(se), simplement.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 80,
+    "text": "La vie est une chance.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 81,
+    "text": "Savourer chaque étape.",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 82,
+    "text": "Le bonheur se partage.",
+    "tags": ["bonheur", "amitié"]
+  },
+  {
+    "id": 83,
+    "text": "Vivant(e) et reconnaissant(e).",
+    "tags": ["bonheur"]
+  },
+  {
+    "id": 84,
+    "text": "Trouver le beau dans le simple.",
+    "tags": ["bonheur", "philosophie"]
+  },
+  {
+    "id": 85,
+    "text": "Ici et maintenant.",
+    "tags": ["bonheur", "philosophie"]
+  },
+  {
+    "id": 86,
+    "text": "Les amis font le voyage.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 87,
+    "text": "Ensemble, on est plus forts.",
+    "tags": ["amitié", "collectif"]
+  },
+  {
+    "id": 88,
+    "text": "Des souvenirs pour la vie.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 89,
+    "text": "L'amitié, c'est l'essentiel.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 90,
+    "text": "Les vraies rencontres marquent.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 91,
+    "text": "Merci à ceux qui sont restés.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 92,
+    "text": "Des liens qui ne s'effacent pas.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 93,
+    "text": "On a grandi ensemble.",
+    "tags": ["amitié", "devenir-soi"]
+  },
+  {
+    "id": 94,
+    "text": "L'amitié dépasse les années.",
+    "tags": ["amitié"]
+  },
+  {
+    "id": 95,
+    "text": "Toujours dans mon cœur.",
+    "tags": ["amitié", "amour"]
+  },
+  {
+    "id": 96,
+    "text": "Les meilleurs moments étaient partagés.",
+    "tags": ["amitié", "bonheur"]
+  },
+  {
+    "id": 97,
+    "text": "Un chapitre écrit à plusieurs.",
+    "tags": ["amitié", "collectif"]
+  },
+  {
+    "id": 98,
+    "text": "Des rires gravés pour toujours.",
+    "tags": ["amitié", "humour"]
+  },
+  {
+    "id": 99,
+    "text": "L'amour sous toutes ses formes.",
+    "tags": ["amour", "amitié"]
+  },
+  {
+    "id": 100,
+    "text": "À ceux qui ont compté.",
+    "tags": ["amitié", "amour"]
+  },
+  {
+    "id": 101,
+    "text": "Connais-toi toi-même.",
+    "tags": ["philosophie", "devenir-soi", "citation-connue"]
+  },
+  {
+    "id": 102,
+    "text": "Le bonheur dépend de nous seuls.",
+    "tags": ["bonheur", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 103,
+    "text": "Le doute est le commencement de la sagesse.",
+    "tags": ["philosophie", "citation-connue"]
+  },
+  {
+    "id": 104,
+    "text": "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+    "tags": ["motivation", "citation-connue"]
+  },
+  {
+    "id": 105,
+    "text": "Vise la lune, au pire tu atteindras les étoiles.",
+    "tags": ["rêves", "motivation", "citation-connue"]
+  },
+  {
+    "id": 106,
+    "text": "N'abandonne jamais un rêve à cause du temps qu'il faut pour l'accomplir.",
+    "tags": ["rêves", "motivation", "citation-connue"]
+  },
+  {
+    "id": 107,
+    "text": "La seule limite à nos réalisations est notre imagination.",
+    "tags": ["motivation", "rêves", "citation-connue"]
+  },
+  {
+    "id": 108,
+    "text": "Le bonheur est parfois caché dans l'inconnu.",
+    "tags": ["bonheur", "citation-connue"]
+  },
+  {
+    "id": 109,
+    "text": "La joie est en tout, il faut savoir l'extraire.",
+    "tags": ["bonheur", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 110,
+    "text": "Le bonheur est une direction, pas une destination.",
+    "tags": ["bonheur", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 111,
+    "text": "Être heureux, c'est décider de l'être.",
+    "tags": ["bonheur", "citation-connue"]
+  },
+  {
+    "id": 112,
+    "text": "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.",
+    "tags": ["amour", "citation-connue"]
+  },
+  {
+    "id": 113,
+    "text": "Là où on s'aime, il ne fait jamais nuit.",
+    "tags": ["amour", "citation-connue"]
+  },
+  {
+    "id": 114,
+    "text": "L'amour est composé d'une seule âme habitant deux corps.",
+    "tags": ["amour", "citation-connue"]
+  },
+  {
+    "id": 115,
+    "text": "L'amour est la poésie des sens.",
+    "tags": ["amour", "citation-connue"]
+  },
+  {
+    "id": 116,
+    "text": "L'amitié double les joies et réduit de moitié les peines.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 117,
+    "text": "Un ami, c'est une âme en deux corps.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 118,
+    "text": "Le véritable ami est celui qui te connaît et t'aime quand même.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 119,
+    "text": "L'amitié est l'ombre du soir qui grandit avec le soleil de la vie.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 120,
+    "text": "Marcher avec un ami dans le noir vaut mieux que marcher seul dans la lumière.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 121,
+    "text": "L'expérience est le nom que chacun donne à ses erreurs.",
+    "tags": ["humour", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 122,
+    "text": "Je peux résister à tout sauf à la tentation.",
+    "tags": ["humour", "citation-connue"]
+  },
+  {
+    "id": 123,
+    "text": "Le secret pour avancer, c'est de commencer.",
+    "tags": ["motivation", "citation-connue"]
+  },
+  {
+    "id": 124,
+    "text": "Prenez la vie du bon côté : elle ne dure pas longtemps.",
+    "tags": ["humour", "bonheur", "citation-connue"]
+  },
+  {
+    "id": 125,
+    "text": "La paresse est mère de tous les vices… mais aussi de toutes les inventions.",
+    "tags": ["humour", "citation-connue"]
+  },
+  {
+    "id": 126,
+    "text": "Les rêves sont nécessaires à la vie.",
+    "tags": ["rêves", "citation-connue"]
+  },
+  {
+    "id": 127,
+    "text": "Tout ce que l'esprit peut concevoir peut être réalisé.",
+    "tags": ["motivation", "rêves", "citation-connue"]
+  },
+  {
+    "id": 128,
+    "text": "Rêver grand, c'est déjà réussir.",
+    "tags": ["rêves", "motivation", "citation-connue"]
+  },
+  {
+    "id": 129,
+    "text": "Grandir, c'est accepter de changer.",
+    "tags": ["devenir-soi", "citation-connue"]
+  },
+  {
+    "id": 130,
+    "text": "On ne naît pas adulte, on le devient.",
+    "tags": ["devenir-soi", "citation-connue"]
+  },
+  {
+    "id": 131,
+    "text": "La jeunesse n'est pas un âge, c'est un état d'esprit.",
+    "tags": ["devenir-soi", "citation-connue"]
+  },
+  {
+    "id": 132,
+    "text": "La force de l'équipe vient de chaque membre. La force de chaque membre vient de l'équipe.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 133,
+    "text": "Le tout est plus que la somme de ses parties.",
+    "tags": ["philosophie", "collectif", "citation-connue"]
+  },
+  {
+    "id": 134,
+    "text": "La solidarité est la tendresse des peuples.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 135,
+    "text": "On est riche aussi de ses amis.",
+    "tags": ["amitié", "citation-connue"]
+  },
+  {
+    "id": 136,
+    "text": "Se rassembler est un début, rester ensemble est un progrès, travailler ensemble est la réussite.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 137,
+    "text": "La coopération est la conviction profonde que personne ne peut y arriver seul.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 138,
+    "text": "La meilleure façon d'aller vite est d'aller ensemble.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 139,
+    "text": "Les grandes choses ne sont jamais faites par une seule personne, mais par une équipe.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 140,
+    "text": "La réussite appartient à tous ceux qui s'entraident.",
+    "tags": ["collectif", "motivation", "citation-connue"]
+  },
+  {
+    "id": 141,
+    "text": "Un plus un peut faire beaucoup plus que deux.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 142,
+    "text": "Nous ne pouvons pas tous faire de grandes choses, mais de petites choses ensemble.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 143,
+    "text": "Ce qui unit les hommes est plus fort que ce qui les divise.",
+    "tags": ["collectif", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 144,
+    "text": "La fraternité est une conquête de chaque jour.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 145,
+    "text": "Avancer ensemble est un choix.",
+    "tags": ["collectif", "citation-connue"]
+  },
+  {
+    "id": 146,
+    "text": "Guérir parfois, soulager souvent, écouter toujours.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 147,
+    "text": "La médecine est un art avant d'être une science.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 148,
+    "text": "Là où l'on aime l'art de la médecine, on aime aussi l'humanité.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 149,
+    "text": "Soigner une maladie peut réussir, soigner une personne donne toujours du sens.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 150,
+    "text": "La science sans conscience n'est que ruine de l'âme.",
+    "tags": ["futur-médecine", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 151,
+    "text": "Le médecin voit l'homme dans sa fragilité, pas seulement dans sa maladie.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 152,
+    "text": "Comprendre le malade est aussi important que comprendre la maladie.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 153,
+    "text": "La vocation médicale commence par l'écoute.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 154,
+    "text": "La médecine est la plus humaine des sciences.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 155,
+    "text": "Aider, soulager, respecter : voilà le cœur du soin.",
+    "tags": ["futur-médecine", "citation-connue"]
+  },
+  {
+    "id": 156,
+    "text": "La science découvre, l'ingénieur crée.",
+    "tags": ["futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 157,
+    "text": "Les ingénieurs transforment les idées en réalité.",
+    "tags": ["futur-ingénierie"]
+  },
+  {
+    "id": 158,
+    "text": "La technologie n'a de sens que si elle sert l'homme.",
+    "tags": ["futur-ingénierie", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 159,
+    "text": "Résoudre un problème, c'est déjà améliorer le monde.",
+    "tags": ["futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 160,
+    "text": "L'ingénierie est l'art de faire beaucoup avec peu.",
+    "tags": ["futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 161,
+    "text": "Ce qui est mesurable peut être amélioré.",
+    "tags": ["futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 162,
+    "text": "Innover, c'est savoir relier des idées.",
+    "tags": ["futur-ingénierie", "motivation", "citation-connue"]
+  },
+  {
+    "id": 163,
+    "text": "Un bon ingénieur pense en solutions.",
+    "tags": ["futur-ingénierie"]
+  },
+  {
+    "id": 164,
+    "text": "Construire, c'est imaginer le futur.",
+    "tags": ["futur-ingénierie", "rêves", "citation-connue"]
+  },
+  {
+    "id": 165,
+    "text": "Le meilleur moyen de prédire l'avenir, c'est de le créer.",
+    "tags": ["futur-commerce", "motivation", "rêves", "citation-connue"]
+  },
+  {
+    "id": 166,
+    "text": "Le client est la raison d'être de toute entreprise.",
+    "tags": ["futur-commerce", "citation-connue"]
+  },
+  {
+    "id": 167,
+    "text": "Le succès en affaires exige formation, discipline et travail acharné.",
+    "tags": ["futur-commerce", "motivation", "citation-connue"]
+  },
+  {
+    "id": 168,
+    "text": "La valeur d'une idée réside dans son utilisation.",
+    "tags": ["futur-commerce", "futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 169,
+    "text": "Un bon leader crée la confiance, un grand leader crée l'avenir.",
+    "tags": ["futur-commerce", "citation-connue"]
+  },
+  {
+    "id": 170,
+    "text": "Le commerce est l'art de comprendre l'autre.",
+    "tags": ["futur-commerce"]
+  },
+  {
+    "id": 171,
+    "text": "L'innovation distingue un leader d'un suiveur.",
+    "tags": ["futur-commerce", "futur-ingénierie", "citation-connue"]
+  },
+  {
+    "id": 172,
+    "text": "La réussite appartient à ceux qui osent décider.",
+    "tags": ["futur-commerce", "motivation", "citation-connue"]
+  },
+  {
+    "id": 173,
+    "text": "La meilleure publicité est un client satisfait.",
+    "tags": ["futur-commerce", "citation-connue"]
+  },
+  {
+    "id": 174,
+    "text": "Entreprendre, c'est transformer un risque en opportunité.",
+    "tags": ["futur-commerce", "motivation", "citation-connue"]
+  },
+  {
+    "id": 175,
+    "text": "La justice est la première vertu des institutions sociales.",
+    "tags": ["futur-droit", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 176,
+    "text": "Le droit est l'art du bon et du juste.",
+    "tags": ["futur-droit", "citation-connue"]
+  },
+  {
+    "id": 177,
+    "text": "Une injustice commise quelque part est une menace pour la justice partout.",
+    "tags": ["futur-droit", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 178,
+    "text": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui.",
+    "tags": ["futur-droit", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 179,
+    "text": "La loi doit être la même pour tous.",
+    "tags": ["futur-droit", "citation-connue"]
+  },
+  {
+    "id": 180,
+    "text": "Sans justice, la force devient tyrannie.",
+    "tags": ["futur-droit", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 181,
+    "text": "Le droit est le rempart du faible contre l'arbitraire du fort.",
+    "tags": ["futur-droit", "citation-connue"]
+  },
+  {
+    "id": 182,
+    "text": "La justice élève une nation.",
+    "tags": ["futur-droit"]
+  },
+  {
+    "id": 183,
+    "text": "La loi n'est juste que si elle est humaine.",
+    "tags": ["futur-droit", "philosophie", "citation-connue"]
+  },
+  {
+    "id": 184,
+    "text": "Défendre le droit, c'est défendre l'homme.",
+    "tags": ["futur-droit", "citation-connue"]
+  }
+]

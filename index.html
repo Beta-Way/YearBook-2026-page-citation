@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citations Yearbook – Marcq Institution Promo 2026</title>
+  <meta name="description"
+    content="Trouve ta citation parfaite pour le Yearbook de la promo 2026 de Marcq Institution. Explore +180 citations par thème, sauvegarde tes favoris et envoie la tienne via le formulaire officiel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+</head>
+
+<body data-theme="light">
+
+  <!-- ===== BANNER ===== -->
+  <div id="banner" role="banner" aria-label="Information importante">
+    <span class="banner-icon">📋</span>
+    <span>Les citations sont <strong>validées par l'administration</strong>. Pas de contenu inapproprié. Date limite à
+      respecter.</span>
+    <button id="banner-close" aria-label="Fermer le bandeau">✕</button>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="main-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-year">2026</span>
+        <div>
+          <h1 class="brand-title">Yearbook <span class="brand-accent">Citations</span></h1>
+          <p class="brand-sub">Marcq Institution · Promo 2026</p>
+        </div>
+      </div>
+      <nav class="header-actions">
+        <button id="theme-toggle" aria-label="Basculer le thème" title="Mode sombre / clair">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <a id="cta-form" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          ✍️ Soumettre ma citation
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-intro">Trouve l'inspiration, marque ton année.</p>
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input id="search-input" type="search" placeholder="Rechercher une citation…" autocomplete="off"
+          aria-label="Rechercher une citation" />
+        <button id="search-clear" aria-label="Effacer la recherche" hidden>✕</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FILTERS ===== -->
+  <div id="filters-bar" role="search" aria-label="Filtres par catégorie">
+    <div class="filters-inner">
+      <span class="filters-label">🏷️ Thèmes :</span>
+      <div id="tag-chips" role="group" aria-label="Filtres par tag"></div>
+      <button id="filters-reset" class="btn btn-ghost" hidden aria-label="Réinitialiser les filtres">
+        Tout effacer
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== MAIN ===== -->
+  <main id="main-content">
+
+    <!-- Stats row -->
+    <div id="stats-row">
+      <span id="count-label" aria-live="polite">Chargement…</span>
+      <div class="sort-controls">
+        <label for="sort-select" class="visually-hidden">Trier par</label>
+        <select id="sort-select" aria-label="Trier les citations">
+          <option value="favorites" selected>Favoris d'abord</option>
+          <option value="random">Aléatoire</option>
+          <option value="alpha">A → Z</option>
+          <option value="default">Ordre original</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Custom citation card -->
+    <div id="custom-card-wrapper">
+      <div id="custom-card" class="card card-custom" role="region" aria-label="Ajouter ma propre citation">
+        <div class="card-body">
+          <p class="card-add-label">✨ Teste ta propre citation</p>
+          <blockquote id="custom-preview" class="card-quote custom-quote-preview">
+            Ta citation apparaîtra ici…
+          </blockquote>
+          <div class="custom-input-row">
+            <div class="input-with-counter">
+              <input id="custom-input" type="text" placeholder="Écris ta citation ici…" maxlength="440"
+                aria-label="Entrer une citation personnelle" />
+              <span id="char-counter" class="char-counter">0 / 440</span>
+            </div>
+            <button id="custom-save" class="btn btn-secondary" aria-label="Sauvegarder la citation personnelle">
+              💾 Sauvegarder
+            </button>
+          </div>
+          <p class="custom-hint">Sauvegardée localement, visible dans tes Favoris.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div id="quotes-grid" role="list" aria-label="Liste des citations"></div>
+
+    <!-- Loader / End -->
+    <div id="loader" aria-live="polite" aria-busy="true" hidden>
+      <div class="spinner"></div>
+      <span>Chargement…</span>
+    </div>
+    <div id="end-message" aria-live="polite" hidden>
+      <span>🎓 Tu as tout exploré !</span>
+    </div>
+    <div id="empty-message" aria-live="polite" hidden>
+      <span class="empty-icon">🔎</span>
+      <p>Aucune citation trouvée pour cette recherche.</p>
+      <button id="empty-reset" class="btn btn-secondary">Effacer les filtres</button>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="main-footer">
+    <p>Fait avec ❤️ pour la <strong>Promo 2026</strong> · Marcq Institution</p>
+    <p class="footer-sub">Site statique · Données stockées localement dans votre navigateur</p>
+    <button id="footer-reset" class="btn btn-ghost footer-reset-btn"
+      title="Supprime toutes tes données locales (favoris, citations perso) et recharge la page">
+      🗑️ Réinitialiser mes données
+    </button>
+  </footer>
+
+  <!-- ===== TOAST ===== -->
+  <div id="toast" role="alert" aria-live="assertive" aria-atomic="true"></div>
+
+  <!-- ===== FAB – Favoris ===== -->
+  <button id="fab-favorites" class="fab" aria-label="Voir mes favoris (0)" title="Mes Favoris">
+    ❤️ <span id="fab-count">0</span>
+  </button>
+
+  <!-- ===== FAVORITES PANEL ===== -->
+  <aside id="favorites-panel" role="dialog" aria-modal="true" aria-label="Mes citations favorites" aria-hidden="true">
+    <div class="panel-header">
+      <h2>❤️ Mes Favoris</h2>
+      <button id="panel-close" aria-label="Fermer le panneau favoris">✕</button>
+    </div>
+    <div id="favorites-list" role="list"></div>
+    <div id="favorites-empty" hidden>
+      <p>Tu n'as pas encore de favoris.<br />Clique sur ❤️ sur une carte !</p>
+    </div>
+  </aside>
+  <!-- ===== CUSTOM MODAL ===== -->
+  <div id="custom-modal" class="modal-overlay" hidden>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>🗑️ Tout réinitialiser ?</h3>
+      </div>
+      <div class="modal-body">
+        <p>Cette action supprimera définitivement tous vos <strong>favoris</strong> et vos <strong>citations
+            personnelles</strong>.</p>
+        <p>Voulez-vous continuer ?</p>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-cancel" class="btn btn-secondary">Annuler</button>
+        <button id="modal-confirm" class="btn btn-primary btn-danger">Oui, supprimer tout</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="panel-overlay"></div>
+
+  <script src="app.js" defer></script>
+</body>
+
+</html>
