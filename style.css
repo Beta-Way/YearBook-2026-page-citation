@@ -373,8 +373,7 @@ body {
 #filters-bar {
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 68px;
+  position: relative;
   z-index: 90;
   transition: background var(--transition), border-color var(--transition);
 }
@@ -384,17 +383,9 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: .8rem;
   padding: .75rem 1.5rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  /* Firefox */
-}
-
-.filters-inner::-webkit-scrollbar {
-  display: none;
-  /* Chrome/Safari */
 }
 
 .filters-label {
@@ -406,8 +397,8 @@ body {
 
 #tag-chips {
   display: flex;
+  flex-wrap: wrap;
   gap: .5rem;
-  flex-shrink: 0;
 }
 
 .tag-chip {
