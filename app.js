@@ -111,7 +111,9 @@ function setTheme(theme) {
 
 function toggleTheme() {
   const current = dom.body.getAttribute('data-theme');
-  setTheme(current === 'dark' ? 'light' : 'dark');
+  const next = current === 'dark' ? 'light' : 'dark';
+  setTheme(next);
+  if (window.posthog) posthog.capture('theme_changed', { theme: next });
 }
 
 /* ================================================================
@@ -175,6 +177,10 @@ function applyFilters() {
     }
     return true;
   });
+
+  if (q && window.posthog) {
+    posthog.capture('search_performed', { query: q, results_count: filtered.length });
+  }
 
   applySort();
 
@@ -255,6 +261,7 @@ function showEndOrEmpty() {
   } else if (displayed >= filtered.length) {
     dom.endMessage.hidden = false;
     dom.emptyMessage.hidden = true;
+    if (window.posthog) posthog.capture('end_reached', { total_displayed: displayed });
   }
 }
 
@@ -351,6 +358,7 @@ function toggleFavorite(quote, cardEl) {
 
   if (favorites.has(id)) {
     favorites.delete(id);
+    if (window.posthog) posthog.capture('favorite_removed', { quote_id: id, is_personal: isPersonal });
     if (isPersonal) {
       // Si c'est une citation perso, on la supprime carrément
       deletePersonalQuote(id);
@@ -360,6 +368,7 @@ function toggleFavorite(quote, cardEl) {
     }
   } else {
     favorites.add(id);
+    if (window.posthog) posthog.capture('favorite_added', { quote_id: id, is_personal: isPersonal });
     showToast('❤️ Ajouté aux favoris !');
   }
   saveFavorites();
@@ -415,6 +424,7 @@ function openFavoritesPanel() {
   dom.panelOverlay.classList.add('is-open');
   dom.favoritesPanel.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  if (window.posthog) posthog.capture('favorites_panel_opened', { count: favorites.size });
   renderFavoritesPanel();
   dom.panelClose.focus();
 }
@@ -454,6 +464,7 @@ function renderFavoritesPanel() {
     item.querySelector('.remove-fav').addEventListener('click', () => {
       const isPersonal = String(id).startsWith('perso_');
       favorites.delete(String(id));
+      if (window.posthog) posthog.capture('favorite_removed', { quote_id: id, is_personal: isPersonal, from: 'panel' });
       saveFavorites();
 
       if (isPersonal) {
@@ -491,15 +502,24 @@ async function copyQuote(text) {
   };
 
   await doCopy();
+  if (window.posthog) posthog.capture('citation_copied', { text_length: text.length });
 
   // Toast cliquable avec lien formulaire
   dom.toast.innerHTML = `
     <span>📋 Citation copiée !</span>
-    <a class="toast-link" href="${escapeHtml(CONFIG.GOOGLE_FORM_URL)}" target="_blank" rel="noopener noreferrer">
+    <a id="toast-form-link" class="toast-link" href="${escapeHtml(CONFIG.GOOGLE_FORM_URL)}" target="_blank" rel="noopener noreferrer">
       ✍️ Soumettre via le formulaire →
     </a>
   `;
   dom.toast.classList.add('show', 'toast-with-link');
+
+  // Track toast link click
+  const toastLink = dom.toast.querySelector('#toast-form-link');
+  if (toastLink) {
+    toastLink.onclick = () => {
+      if (window.posthog) posthog.capture('form_cta_clicked', { location: 'toast' });
+    };
+  }
 
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => {
@@ -552,8 +572,10 @@ function renderTagChips() {
 function toggleTagFilter(tag) {
   if (activeTags.has(tag)) {
     activeTags.delete(tag);
+    if (window.posthog) posthog.capture('tag_filter_toggled', { tag, active: false });
   } else {
     activeTags.add(tag);
+    if (window.posthog) posthog.capture('tag_filter_toggled', { tag, active: true });
   }
   updateFilterUI();
   applyFilters();
@@ -575,6 +597,7 @@ function resetFilters() {
   dom.searchClear.hidden = true;
   updateFilterUI();
   applyFilters();
+  if (window.posthog) posthog.capture('filters_reset');
 }
 
 /* ================================================================
@@ -635,6 +658,7 @@ function savePersonalQuote() {
   updateFabCount();
 
   applyFilters();
+  if (window.posthog) posthog.capture('personal_citation_saved', { text_length: text.length });
   showToast('💾 Citation sauvegardée et ajoutée aux favoris !');
 }
 
@@ -652,6 +676,7 @@ function closeModal() {
 }
 
 function resetAll() {
+  if (window.posthog) posthog.capture('data_reset_confirmed');
   localStorage.removeItem(CONFIG.STORAGE_KEY_FAV);
   localStorage.removeItem(CONFIG.STORAGE_KEY_PERSONAL);
   // On peut aussi garder l'URL du form si on veut, mais c'est pas dans LS
@@ -663,13 +688,19 @@ function resetAll() {
    ================================================================ */
 function initEvents() {
   // Banner
-  dom.bannerClose.addEventListener('click', () => dom.banner.classList.add('hidden'));
+  dom.bannerClose.addEventListener('click', () => {
+    dom.banner.classList.add('hidden');
+    if (window.posthog) posthog.capture('banner_closed');
+  });
 
   // Theme
   dom.themeToggle.addEventListener('click', toggleTheme);
 
   // CTA Google Form
   dom.ctaForm.href = CONFIG.GOOGLE_FORM_URL;
+  dom.ctaForm.onclick = () => {
+    if (window.posthog) posthog.capture('form_cta_clicked', { location: 'header' });
+  };
 
   // Search
   dom.searchInput.addEventListener('input', () => {
@@ -687,6 +718,7 @@ function initEvents() {
   dom.sortSelect.addEventListener('change', () => {
     sortMode = dom.sortSelect.value;
     applyFilters();
+    if (window.posthog) posthog.capture('sort_changed', { mode: sortMode });
   });
 
   // Reset filters buttons
