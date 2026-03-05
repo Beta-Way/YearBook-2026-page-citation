@@ -770,6 +770,14 @@ async function init() {
   updateFabCount();
   applyFilters();
   setupIntersectionObserver();
+
+  if (window.posthog) {
+    posthog.capture('page_loaded', {
+      favorites_count: favorites.size,
+      personal_quotes_count: personalQuotes.length,
+      theme: dom.body.getAttribute('data-theme')
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);
