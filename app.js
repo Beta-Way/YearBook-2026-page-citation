@@ -329,7 +329,7 @@ function createCard(quote) {
 
   // Events
   article.querySelector('.fav-btn').addEventListener('click', () => toggleFavorite(quote, article));
-  article.querySelector('.copy-btn').addEventListener('click', () => copyQuote(quote.text));
+  article.querySelector('.copy-btn').addEventListener('click', () => copyQuote(quote.text, quote.id));
 
   article.querySelectorAll('.card-tag').forEach(btn => {
     btn.addEventListener('click', e => {
@@ -460,7 +460,7 @@ function renderFavoritesPanel() {
     const id = item.dataset.id;
     const quote = allQuotes.find(q => String(q.id) === id);
 
-    item.querySelector('.copy-panel-btn').addEventListener('click', () => copyQuote(quote.text));
+    item.querySelector('.copy-panel-btn').addEventListener('click', () => copyQuote(quote.text, quote.id));
     item.querySelector('.remove-fav').addEventListener('click', () => {
       const isPersonal = String(id).startsWith('perso_');
       favorites.delete(String(id));
@@ -486,7 +486,7 @@ function renderFavoritesPanel() {
    ================================================================ */
 let toastTimer = null;
 
-async function copyQuote(text) {
+async function copyQuote(text, quoteId) {
   const doCopy = async () => {
     try {
       await navigator.clipboard.writeText(text);
@@ -502,7 +502,7 @@ async function copyQuote(text) {
   };
 
   await doCopy();
-  if (window.posthog) posthog.capture('citation_copied', { text_length: text.length });
+  if (window.posthog) posthog.capture('citation_copied', { quote_id: quoteId, text_length: text.length });
 
   // Toast cliquable avec lien formulaire
   dom.toast.innerHTML = `
@@ -516,9 +516,9 @@ async function copyQuote(text) {
   // Track toast link click
   const toastLink = dom.toast.querySelector('#toast-form-link');
   if (toastLink) {
-    toastLink.onclick = () => {
+    toastLink.addEventListener('click', () => {
       if (window.posthog) posthog.capture('form_cta_clicked', { location: 'toast' });
-    };
+    });
   }
 
   clearTimeout(toastTimer);
@@ -698,9 +698,9 @@ function initEvents() {
 
   // CTA Google Form
   dom.ctaForm.href = CONFIG.GOOGLE_FORM_URL;
-  dom.ctaForm.onclick = () => {
+  dom.ctaForm.addEventListener('click', () => {
     if (window.posthog) posthog.capture('form_cta_clicked', { location: 'header' });
-  };
+  });
 
   // Search
   dom.searchInput.addEventListener('input', () => {
