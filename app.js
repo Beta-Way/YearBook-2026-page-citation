@@ -180,6 +180,7 @@ function applyFilters() {
 
   if (q && window.posthog) {
     posthog.capture('search_performed', { query: q, results_count: filtered.length });
+    posthog.capture('user_interaction', { method: 'search', query: q });
   }
 
   applySort();
@@ -575,7 +576,10 @@ function toggleTagFilter(tag) {
     if (window.posthog) posthog.capture('tag_filter_toggled', { tag, active: false });
   } else {
     activeTags.add(tag);
-    if (window.posthog) posthog.capture('tag_filter_toggled', { tag, active: true });
+    if (window.posthog) {
+      posthog.capture('tag_filter_toggled', { tag, active: true });
+      posthog.capture('user_interaction', { method: 'filter', tag: tag });
+    }
   }
   updateFilterUI();
   applyFilters();
@@ -712,6 +716,7 @@ function initEvents() {
     dom.searchClear.hidden = true;
     dom.searchInput.focus();
     applyFilters();
+    if (window.posthog) posthog.capture('search_cleared');
   });
 
   // Sort
@@ -750,6 +755,14 @@ function initEvents() {
    INIT
    ================================================================ */
 async function init() {
+  if (window.posthog) {
+    posthog.register({
+      promo: '2026',
+      institution: 'Marcq Institution',
+      project: 'Yearbook Quotes'
+    });
+  }
+
   cacheDOM();
   loadStorage();
   initTheme();
